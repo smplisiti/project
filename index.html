@@ -1,11 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plenty of Woof</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <!-- Additional CSS must be placed after Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- endbuild -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+
+  <!-- Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+
+  <title>Plenty of Woof</title>
 </head>
+
 <body>
-    
+
+  <section class="first-section">
+   
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <ul class="nav justify-content-end ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#takeAction">Download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+        </ul>
+</div>  
+      </div>
+    </nav>
+
+    <!-- Title -->
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>Plenty of Woof</h2>
+        <h1 class="opening-heading">You had me at ruff. 🐶</h1>
+      </div>
+      <div class="col-lg-6">
+        <img class="title-image" src="images/dog2.jpg" alt="dog-on-computer">
+      </div>
+
+    </div>
+
+    </div>
+
+  </section>
+
+  <!-- Features -->
+
+  <section class="second-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-users fa-4x"></i>
+          <h3 class="feature-title" style="color:black">About Us</h3>
+          <p>We help your dog find a friendship that's better than belly rubs.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-certificate fa-4x"></i>
+          <h3 class="feature-title" style="color:black">Elite Clientele</h3>
+          <p>Meet someone unpawgettable.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title" style="color:black">User Friendly</h3>
+          <p>Our site is so easy to use, even your dog could do it.</p>
+        </div>
+      </div>
+  </div>
+  
+</section>
+<!-- Testimonials -->
+
+  <section class="third-section" id="testimonials">
+    <div class="container-fluid">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">It was love at first sniff...she was pawfect! Woof.</h2>
+          <img class="testimonial-image" src="images/bruno.jpg" style="width: 20rem" class="d-block w-100" alt="dog-profile">
+          <em>Bruno, Honolulu</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">This site helped me to find playdates for my fur
+            baby.</h2>
+          <img class="testimonial-image" src="images/taylor.jpeg" style="width:15rem" class="d-block w-100" alt="girl-profile">
+          <em>Taylor, Hawaii</em>
+
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+  </section>
+
+  <section class="fourth-section" id="takeAction">
+
+    <div class="container-fluid">
+
+      <h3 class="final-heading">Find a No-strings Attached Cuddle Buddy or a Leash-free Relationship Today.</h3>
+      <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+      <button class="download-button btn btn-lg brn-light" style="color:black;" type="button"><i class="fab fa-google-play"></i>
+        Download</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2020 PlentyOfWoof</p>
+    </div>
+  </footer>
+
+  <script src="https://fontawesome.com/releases/v5.13.0/js/all.js"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
 </body>
+
 </html>
