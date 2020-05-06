@@ -19,6 +19,7 @@
   
   .opening-heading {
     font-family: "Montserrat-Black";
+    color: #dfe6e9;
     font-size: 3.5rem;
     line-height: 1.5;
     margin-top: 5%;
@@ -26,6 +27,7 @@
   
  .final-heading {
      font-size: 3.5rem;
+     color:#2d3436;
    }
   
   /* Containers */
@@ -65,7 +67,7 @@
   .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
-    color: black;
+    color:#2d3436;
    }
   
   /* Buttons */
