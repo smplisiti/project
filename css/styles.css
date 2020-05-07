@@ -5,11 +5,16 @@
     text-align: center;
    }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat-Bold";
+  h1, h3, h2, h5, h6 {
+    font-family: 'Merriweather', serif;
     color: white;
    }
-  
+  h4 {
+    color: #11999e;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+  }
   
   p {
     color: #8f8f8f;
@@ -18,7 +23,7 @@
   /* Headings */
   
   .opening-heading {
-    font-family: "Montserrat-Black";
+    font-family: 'Merriweather', serif;
     color: #dfe6e9;
     font-size: 3.5rem;
     line-height: 1.5;
@@ -26,8 +31,8 @@
    }
   
  .final-heading {
-     font-size: 3.5rem;
-     color:#2d3436;
+   
+     
    }
   
   /* Containers */
@@ -47,11 +52,11 @@
    }
   
   .third-section {
-        background-color: #fc7978;
+        background-color: #ffafb0;
    }
   
   .fourth-section {
-        background-color: #ffafb0;
+        background-color: #f8f3eb;
    }
   
     /* Navigation Bar */
@@ -66,7 +71,7 @@
   
   .nav-link {
     font-size: 1.2rem;
-    font-family: "Montserrat-Light";
+    font-family: 'Merriweather', serif;
     color:#2d3436;
    }
   
@@ -74,7 +79,7 @@
   
   .download-button {
     margin: 5% 3% 5% 0;
-    color: white;
+    
    }
   
   /* Image */
@@ -102,18 +107,17 @@
   }
   
   .icon:hover {
-    color: #5eb7b7;
+    color: #66bfbf;
   }
   
   /* Testimonial Section */
   
-  #testimonials {
-    background-color: #fc7978;
-  }
+  
   
   .testimonial-text {
     font-size: 3rem;
     line-height: 1.5;
+    color: #40514E;
   }
   
   .testimonial-image {
@@ -124,13 +128,25 @@
   /* Footer Section */
   
   #footer {
-      background-color: #f8f3eb;
+      background-color: #66bfbf;
   }
   .social-icon {
     margin: 20px 10px;
+    color: black;
+    
   }
-  
-  
+  .social-icon:hover {
+
+background-image: -webkit-linear-gradient(top, #fc7978, #ffafb0);
+background-image: -moz-linear-gradient(top, #fc7978, #ffafb0);
+background-image: -ms-linear-gradient(top, #fc7978, #ffafb0);
+background-image: -o-linear-gradient(top, #fc7978, #ffafb0);
+background-image: linear-gradient(to bottom, #fc7978, #ffafb0);
+text-decoration: none;
+  }
+  .copyright {
+    color: #eaf6f6;
+  }
 
   
     
