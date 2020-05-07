@@ -136,14 +136,9 @@
     
   }
   .social-icon:hover {
-
-background-image: -webkit-linear-gradient(top, #fc7978, #ffafb0);
-background-image: -moz-linear-gradient(top, #fc7978, #ffafb0);
-background-image: -ms-linear-gradient(top, #fc7978, #ffafb0);
-background-image: -o-linear-gradient(top, #fc7978, #ffafb0);
-background-image: linear-gradient(to bottom, #fc7978, #ffafb0);
-text-decoration: none;
+    background-image: linear-gradient(to bottom, #f8f3eb, #f8f3eb);
   }
+  
   .copyright {
     color: #eaf6f6;
   }
