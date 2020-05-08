@@ -30,10 +30,6 @@
     margin-top: 5%;
    }
   
- .final-heading {
-   
-     
-   }
   
   /* Containers */
   
@@ -73,6 +69,9 @@
     font-size: 1.2rem;
     font-family: 'Merriweather', serif;
     color:#2d3436;
+    margin-right: 60px;
+   
+    
    }
   
   /* Buttons */
@@ -102,12 +101,22 @@
     padding: 4.5%;
   }
   
+/* Icons */
+
   .icon {
      margin-bottom: 1rem;
   }
   
   .icon:hover {
     color: #66bfbf;
+  }
+  .social-icon {
+    margin: 20px 10px;
+    color: black;
+    
+  }
+  .social-icon:hover {
+    background-image: linear-gradient(to bottom, #f8f3eb, #f8f3eb);
   }
   
   /* Testimonial Section */
@@ -130,20 +139,16 @@
   #footer {
       background-color: #66bfbf;
   }
-  .social-icon {
-    margin: 20px 10px;
-    color: black;
-    
-  }
-  .social-icon:hover {
-    background-image: linear-gradient(to bottom, #f8f3eb, #f8f3eb);
-  }
   
   .copyright {
     color: #eaf6f6;
   }
 
-  
+  /* LogIn */
+
+  #logIn {
+    background-color: burlywood;
+  }
     
   
   
