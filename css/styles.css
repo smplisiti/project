@@ -104,7 +104,9 @@
   }
   
 /* Icons */
-
+.link {
+  color: black;
+}
   .icon {
      margin-bottom: 1rem;
   }
