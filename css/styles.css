@@ -17,7 +17,7 @@
   }
   
   p {
-    color: #8f8f8f;
+    color: #40514e;
    }
   
   /* Headings */
@@ -44,15 +44,17 @@
    }
 
   .second-section {
-        background-color: #f8f3eb;
+        background-color: #ffffff;
+        
    }
   
   .third-section {
-        background-color: #ffafb0;
+        background-color: #ffDEDE;
    }
   
   .fourth-section {
-        background-color: #f8f3eb;
+        background-color: #ffdede;
+        
    }
   
     /* Navigation Bar */
@@ -133,11 +135,32 @@
     width: 10%;
     border-radius: 100%;
   }
-  
+  .contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+ .contact-me {
+   background-color: #ffdede;
+ }
+  .contact {
+    background: #11CDD4;
+    
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+ 
+ 
   /* Footer Section */
   
   #footer {
       background-color: #66bfbf;
+      padding: 50px 0 20px;
   }
   
   .copyright {
@@ -146,9 +169,6 @@
 
   /* LogIn */
 
-  #logIn {
-    background-color: burlywood;
-  }
-    
+  
   
   
